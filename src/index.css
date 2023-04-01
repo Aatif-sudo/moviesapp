@@ -1,13 +1,41 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #181818;
+  font-family: "Vazir", sans-serif;
+  color: #eaecef;
+}
+@font-face {
+  font-family: "BasisGrotesquePro-Light";
+  src: local("BasisGrotesquePro-Light"),
+    url("assets/fonts/basisGrotesquePro/BasisGrotesquePro-Light.ttf")
+      format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* roboto font weight 400 */
+
+@font-face {
+  font-family: "BasisGrotesquePro-Regular";
+  src: local("BasisGrotesquePro-Regular"),
+    url("assets/fonts/basisGrotesquePro/BasisGrotesquePro-Regular.ttf")
+      format("truetype");
+}
+
+/* roboto font weight 500 */
+
+@font-face {
+  font-family: "BasisGrotesquePro-Medium";
+  src: local("BasisGrotesquePro-Medium"),
+    url("assets/fonts/basisGrotesquePro/BasisGrotesquePro-Medium.ttf")
+      format("truetype");
+}
+
+/* roboto font weight 700 or 600 */
+
+@font-face {
+  font-family: "BasisGrotesquePro-Bold";
+  src: local("BasisGrotesquePro-Bold"),
+    url("assets/fonts/basisGrotesquePro/BasisGrotesquePro-Bold.ttf")
+      format("truetype");
 }
